@@ -18,7 +18,7 @@
 					
 					<h:panelGrid border="0" columns="3" footerClass="subtitle" headerClass="subtitlebig" styleClass="medium" columnClasses="subtitle,medium">
 						<h:outputText value="Usuario: " />
-						<h:inputText id="nomeLogin"  style=" width : 221px;" required="true" />
+						<h:inputText id="nomeLogin"  style=" width : 200px;" required="true" />
 						<rich:message for="nomeLogin">
 							<f:facet name="passedMarker">
 								<h:graphicImage value="images/passed.gif" />
@@ -29,7 +29,7 @@
 						</rich:message>
 
 						<h:outputText value="Senha: " />
-						<h:inputSecret id="senha"  style=" width : 221px;" required="true" />
+						<h:inputSecret id="senha"  style=" width : 200px;" required="true" />
 						<rich:message for="senha">
 							<f:facet name="passedMarker">
 								<h:graphicImage value="images/passed.gif" />
@@ -40,7 +40,7 @@
 						</rich:message>
 						
 
-						<h:commandButton value="Entrar" />
+						<h:outputText value="" /><h:commandButton  value="Entrar" />
 
 					</h:panelGrid>
 				</h:form>
